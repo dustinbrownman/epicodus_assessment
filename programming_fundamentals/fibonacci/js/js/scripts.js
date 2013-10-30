@@ -4,6 +4,7 @@ function fibonacci(number) {
   if (fibonacciNumbers.length > number) {
     return fibonacciNumbers[number];
   } else {
-    return fibonacciNumbers[number] = fibonacci(number - 1) + fibonacci(number - 2);
+    fibonacciNumbers.push(fibonacci(number - 1) + fibonacci(number - 2));
+    return fibonacciNumbers[number];
   }
 };
