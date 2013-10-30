@@ -1,14 +1,9 @@
 class Factorial
-
   def initialize
-    @factorials = [0]
+    @factorials = [1]
   end
 
   def solve(number)
-
+    @factorials[number] ||= number * solve(number - 1)
   end
-
-  private
-
-  def
 end
