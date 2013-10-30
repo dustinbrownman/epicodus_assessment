@@ -11,4 +11,9 @@ describe Factorial do
     factorial = Factorial.new
     factorial.solve(2).should eq 2
   end
+
+  it 'returns 3628800 for the number 10' do
+    factorial = Factorial.new
+    factorial.solve(10).should eq 3628800
+  end
 end

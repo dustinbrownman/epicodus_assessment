@@ -16,7 +16,6 @@ function fizzbuzz(number) {
 
 $(function() {
   $('form').submit(function() {
-    // debugger;
     buzzMessage = fizzbuzz($('input#number').val());
 
     $('#status p').empty().append(buzzMessage).removeClass().addClass('success');
