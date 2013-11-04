@@ -1,0 +1,22 @@
+.heading {
+	text-transform: uppercase;
+	color: #27ae60;
+}
+
+.heading h1 {
+	font-size: 7vw;
+	margin-top: 0px
+}
+
+.heading h2 {
+	font-size: 4vw;
+	margin-bottom: 0px;
+}
+
+.content {
+	padding: 0;
+}
+
+.column {
+	text-align: justify;
+}
